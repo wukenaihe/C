@@ -1,0 +1,176 @@
+﻿Build started 2015/5/15 16:16:53.
+     1>Project "D:\material\apache-log4cxx-0.10.0\projects\log4cxx.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\Debug\log4cxx.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\src\main\include /I..\..\apr\include /I"..\..\apr-util\include" /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D _USRDLL /D DLL_EXPORTS /D LOG4CXX /D APR_DECLARE_STATIC /D APU_DECLARE_STATIC /D WIN32 /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main\cpp\class.cpp  /EHsc   /EHsc 
+         class.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\src\main\include /I..\..\apr\include /I"..\..\apr-util\include" /Zi /nologo /W1 /WX- /Od /Oy- /D _DEBUG /D _USRDLL /D DLL_EXPORTS /D LOG4CXX /D APR_DECLARE_STATIC /D APU_DECLARE_STATIC /D WIN32 /D _VC80_UPGRADE=0x0600 /D _WINDLL /Gm- /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\main\cpp\telnetappender.cpp  /EHsc 
+         telnetappender.cpp
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\log4cxx.dll" /INCREMENTAL:NO /NOLOGO ADVAPI32.LIB WS2_32.LIB MSWSOCK.LIB SHELL32.LIB ODBC32.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\log4cxx.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\material\apache-log4cxx-0.10.0\projects\Debug\log4cxx.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\log4cxx.lib" /MACHINE:X86 /DLL .\Debug\log4cxx.res
+         .\Debug\action.obj
+         .\Debug\appenderattachableimpl.obj
+         .\Debug\appenderskeleton.obj
+         .\Debug\aprinitializer.obj
+         .\Debug\asyncappender.obj
+         .\Debug\basicconfigurator.obj
+         .\Debug\bufferedwriter.obj
+         .\Debug\bytearrayinputstream.obj
+         .\Debug\bytearrayoutputstream.obj
+         .\Debug\bytebuffer.obj
+         .\Debug\cacheddateformat.obj
+         .\Debug\charsetdecoder.obj
+         .\Debug\charsetencoder.obj
+         .\Debug\class.obj
+         .\Debug\classnamepatternconverter.obj
+         .\Debug\classregistration.obj
+         .\Debug\condition.obj
+         .\Debug\configurator.obj
+         .\Debug\consoleappender.obj
+         .\Debug\cyclicbuffer.obj
+         .\Debug\dailyrollingfileappender.obj
+         .\Debug\datagrampacket.obj
+         .\Debug\datagramsocket.obj
+         .\Debug\date.obj
+         .\Debug\dateformat.obj
+         .\Debug\datelayout.obj
+         .\Debug\datepatternconverter.obj
+         .\Debug\defaultconfigurator.obj
+         .\Debug\defaultloggerfactory.obj
+         .\Debug\defaultrepositoryselector.obj
+         .\Debug\domconfigurator.obj
+         .\Debug\exception.obj
+         .\Debug\fallbackerrorhandler.obj
+         .\Debug\file.obj
+         .\Debug\fileappender.obj
+         .\Debug\filedatepatternconverter.obj
+         .\Debug\fileinputstream.obj
+         .\Debug\filelocationpatternconverter.obj
+         .\Debug\fileoutputstream.obj
+         .\Debug\filerenameaction.obj
+         .\Debug\filewatchdog.obj
+         .\Debug\filter.obj
+         .\Debug\filterbasedtriggeringpolicy.obj
+         .\Debug\fixedwindowrollingpolicy.obj
+         .\Debug\formattinginfo.obj
+         .\Debug\fulllocationpatternconverter.obj
+         .\Debug\gzcompressaction.obj
+         .\Debug\hierarchy.obj
+         .\Debug\htmllayout.obj
+         .\Debug\inetaddress.obj
+         .\Debug\inputstream.obj
+         .\Debug\inputstreamreader.obj
+         .\Debug\integer.obj
+         .\Debug\integerpatternconverter.obj
+         .\Debug\layout.obj
+         .\Debug\level.obj
+         .\Debug\levelmatchfilter.obj
+         .\Debug\levelpatternconverter.obj
+         .\Debug\levelrangefilter.obj
+         .\Debug\linelocationpatternconverter.obj
+         .\Debug\lineseparatorpatternconverter.obj
+         .\Debug\literalpatternconverter.obj
+         .\Debug\loader.obj
+         .\Debug\locale.obj
+         .\Debug\locationinfo.obj
+         .\Debug\logger.obj
+         .\Debug\loggerpatternconverter.obj
+         .\Debug\loggingevent.obj
+         .\Debug\loggingeventpatternconverter.obj
+         .\Debug\loglog.obj
+         .\Debug\logmanager.obj
+         .\Debug\logstream.obj
+         .\Debug\manualtriggeringpolicy.obj
+         .\Debug\mdc.obj
+         .\Debug\messagebuffer.obj
+         .\Debug\messagepatternconverter.obj
+         .\Debug\methodlocationpatternconverter.obj
+         .\Debug\mutex.obj
+         .\Debug\nameabbreviator.obj
+         .\Debug\namepatternconverter.obj
+         .\Debug\ndc.obj
+         .\Debug\ndcpatternconverter.obj
+         .\Debug\nteventlogappender.obj
+         .\Debug\objectimpl.obj
+         .\Debug\objectoutputstream.obj
+         .\Debug\objectptr.obj
+         .\Debug\obsoleterollingfileappender.obj
+         .\Debug\odbcappender.obj
+         .\Debug\onlyonceerrorhandler.obj
+         .\Debug\optionconverter.obj
+         .\Debug\outputdebugstringappender.obj
+         .\Debug\outputstream.obj
+         .\Debug\outputstreamwriter.obj
+         .\Debug\patternconverter.obj
+         .\Debug\patternlayout.obj
+         .\Debug\patternparser.obj
+         .\Debug\pool.obj
+         .\Debug\properties.obj
+         .\Debug\propertiespatternconverter.obj
+         .\Debug\propertyconfigurator.obj
+         .\Debug\propertyresourcebundle.obj
+         .\Debug\propertysetter.obj
+         .\Debug\reader.obj
+         .\Debug\relativetimedateformat.obj
+         .\Debug\relativetimepatternconverter.obj
+         .\Debug\resourcebundle.obj
+         .\Debug\rollingfileappender.obj
+         .\Debug\rollingpolicy.obj
+         .\Debug\rollingpolicybase.obj
+         .\Debug\rolloverdescription.obj
+         .\Debug\rootlogger.obj
+         .\Debug\serversocket.obj
+         .\Debug\simpledateformat.obj
+         .\Debug\simplelayout.obj
+         .\Debug\sizebasedtriggeringpolicy.obj
+         .\Debug\smtpappender.obj
+         .\Debug\socket.obj
+         .\Debug\socketappender.obj
+         .\Debug\socketappenderskeleton.obj
+         .\Debug\sockethubappender.obj
+         .\Debug\socketoutputstream.obj
+         .\Debug\strftimedateformat.obj
+         .\Debug\stringhelper.obj
+         .\Debug\stringmatchfilter.obj
+         .\Debug\stringtokenizer.obj
+         .\Debug\synchronized.obj
+         .\Debug\syslogappender.obj
+         .\Debug\syslogwriter.obj
+         .\Debug\system.obj
+         .\Debug\systemerrwriter.obj
+         .\Debug\systemoutwriter.obj
+         .\Debug\telnetappender.obj
+         .\Debug\threadcxx.obj
+         .\Debug\threadlocal.obj
+         .\Debug\threadpatternconverter.obj
+         .\Debug\threadspecificdata.obj
+         .\Debug\throwableinformationpatternconverter.obj
+         .\Debug\timebasedrollingpolicy.obj
+         .\Debug\timezone.obj
+         .\Debug\transcoder.obj
+         .\Debug\transform.obj
+         .\Debug\triggeringpolicy.obj
+         .\Debug\ttcclayout.obj
+         .\Debug\writer.obj
+         .\Debug\writerappender.obj
+         .\Debug\xmllayout.obj
+         .\Debug\xmlsocketappender.obj
+         .\Debug\zipcompressaction.obj
+         "D:\material\apr-util\LibD\aprutil-1.lib"
+         "D:\material\apr-util\xml\expat\lib\LibD\xml.lib"
+         "D:\material\apr\LibD\apr-1.lib"
+            Creating library .\Debug\log4cxx.lib and object .\Debug\log4cxx.exp
+         log4cxx.vcxproj -> D:\material\apache-log4cxx-0.10.0\projects\.\Debug\log4cxx.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Debug\log4cxx.dll;#2" /manifest .\Debug\log4cxx.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\log4cxx.unsuccessfulbuild".
+         Touching ".\Debug\log4cxx.lastbuildstate".
+     1>Done Building Project "D:\material\apache-log4cxx-0.10.0\projects\log4cxx.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.57
