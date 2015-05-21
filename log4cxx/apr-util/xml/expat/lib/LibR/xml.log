@@ -1,0 +1,28 @@
+﻿Build started 2015/5/18 17:45:40.
+     1>Project "D:\material\apr-util\xml\expat\lib\xml.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\LibR\xml.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\LibR\xml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Creating config.h from winconfig.h
+         Creating expat.h from expat.h.in
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /Ob1 /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D "VERSION=\"expat_1.95.2\"" /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\LibR\\" /Fd"LibR\xml_src" /Gd /TC /analyze- /errorReport:prompt xmlparse.c xmlrole.c xmltok.c
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\LibR\xml.lib" /NOLOGO .\LibR\xmlparse.obj
+         .\LibR\xmlrole.obj
+         .\LibR\xmltok.obj
+         xml.vcxproj -> D:\material\apr-util\xml\expat\lib\.\LibR\xml.lib
+       FinalizeBuildStatus:
+         Deleting file ".\LibR\xml.unsuccessfulbuild".
+         Touching ".\LibR\xml.lastbuildstate".
+     1>Done Building Project "D:\material\apr-util\xml\expat\lib\xml.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05

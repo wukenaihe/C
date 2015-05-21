@@ -1,0 +1,25 @@
+﻿Build started 2015/5/15 16:16:43.
+     1>Project "D:\material\apr-util\xml\expat\lib\xml.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\LibD\xml.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D "VERSION=\"expat_1.95.2\"" /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm- /EHsc /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\LibD\\" /Fd"LibD\xml_src" /Gd /TC /analyze- /errorReport:prompt xmlparse.c xmlrole.c xmltok.c  /EHsc   /EHsc 
+         xmlparse.c
+         xmlrole.c
+         xmltok.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\LibD\xml.lib" /NOLOGO .\LibD\xmlparse.obj
+         .\LibD\xmlrole.obj
+         .\LibD\xmltok.obj
+         xml.vcxproj -> D:\material\apr-util\xml\expat\lib\.\LibD\xml.lib
+       FinalizeBuildStatus:
+         Deleting file ".\LibD\xml.unsuccessfulbuild".
+         Touching ".\LibD\xml.lastbuildstate".
+     1>Done Building Project "D:\material\apr-util\xml\expat\lib\xml.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

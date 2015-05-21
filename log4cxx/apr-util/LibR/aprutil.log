@@ -1,0 +1,119 @@
+﻿Build started 2015/5/18 17:45:50.
+     1>Project "D:\material\apr-util\aprutil.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\LibR\aprutil.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\LibR\aprutil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Creating apr_ldap.h from apr_ldap.hw
+         Creating apu.h from apu.hw
+         Creating apu_config.h from apu_config.hw
+         Creating apu_select_dbm.h from apu_select_dbm.hw
+         Creating apu_want.h from apu_want.hw
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /I../apr/include /I./include/private /I"../apr-iconv/include" /I./dbm/sdbm /I./xml/expat/lib /Zi /nologo /W3 /WX- /Od /Ob1 /Oy- /D NDEBUG /D APR_DECLARE_STATIC /D APU_DECLARE_STATIC /D API_DECLARE_STATIC /D APU_USE_SDBM /D XML_STATIC /D WIN32 /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\LibR\\" /Fd"LibR\aprutil_src" /Gd /TC /analyze- /errorReport:prompt buckets\apr_brigade.c buckets\apr_buckets.c buckets\apr_buckets_alloc.c buckets\apr_buckets_eos.c buckets\apr_buckets_file.c buckets\apr_buckets_flush.c buckets\apr_buckets_heap.c buckets\apr_buckets_mmap.c buckets\apr_buckets_pipe.c buckets\apr_buckets_pool.c buckets\apr_buckets_refcount.c buckets\apr_buckets_simple.c buckets\apr_buckets_socket.c crypto\apr_md4.c crypto\apr_md5.c crypto\apr_sha1.c crypto\getuuid.c crypto\uuid.c dbd\apr_dbd.c dbd\apr_dbd_pgsql.c dbd\apr_dbd_sqlite2.c dbd\apr_dbd_sqlite3.c dbm\apr_dbm.c dbm\apr_dbm_berkeleydb.c dbm\apr_dbm_gdbm.c dbm\apr_dbm_sdbm.c encoding\apr_base64.c hooks\apr_hooks.c ldap\apr_ldap_init.c ldap\apr_ldap_url.c ldap\apr_ldap_option.c misc\apr_date.c misc\apr_queue.c misc\apr_reslist.c misc\apr_rmm.c misc\apu_version.c dbm\sdbm\sdbm.c dbm\sdbm\sdbm_hash.c dbm\sdbm\sdbm_lock.c dbm\sdbm\sdbm_pair.c strmatch\apr_strmatch.c uri\apr_uri.c xlate\xlate.c xml\apr_xml.c
+         apr_brigade.c
+         apr_buckets.c
+         apr_buckets_alloc.c
+         apr_buckets_eos.c
+         apr_buckets_file.c
+         apr_buckets_flush.c
+         apr_buckets_heap.c
+         apr_buckets_mmap.c
+         apr_buckets_pipe.c
+         apr_buckets_pool.c
+         apr_buckets_refcount.c
+         apr_buckets_simple.c
+         apr_buckets_socket.c
+         apr_md4.c
+         apr_md5.c
+         apr_sha1.c
+         getuuid.c
+         uuid.c
+         apr_dbd.c
+         apr_dbd_pgsql.c
+         Generating Code...
+         Compiling...
+         apr_dbd_sqlite2.c
+         apr_dbd_sqlite3.c
+         apr_dbm.c
+         apr_dbm_berkeleydb.c
+         apr_dbm_gdbm.c
+         apr_dbm_sdbm.c
+         apr_base64.c
+         apr_hooks.c
+         apr_ldap_init.c
+         apr_ldap_url.c
+         apr_ldap_option.c
+         apr_date.c
+         apr_queue.c
+         apr_reslist.c
+         apr_rmm.c
+         apu_version.c
+         sdbm.c
+         sdbm_hash.c
+         sdbm_lock.c
+         sdbm_pair.c
+         Generating Code...
+         Compiling...
+         apr_strmatch.c
+         apr_uri.c
+         xlate.c
+         apr_xml.c
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(D:\material\apr-util\.\LibR\aprutil.lib) does not match the Library's OutputFile property value (D:\material\apr-util\LibR\aprutil-1.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(aprutil) does not match the Library's OutputFile property value (aprutil-1). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"LibR\aprutil-1.lib" /NOLOGO .\LibR\apr_brigade.obj
+         .\LibR\apr_buckets.obj
+         .\LibR\apr_buckets_alloc.obj
+         .\LibR\apr_buckets_eos.obj
+         .\LibR\apr_buckets_file.obj
+         .\LibR\apr_buckets_flush.obj
+         .\LibR\apr_buckets_heap.obj
+         .\LibR\apr_buckets_mmap.obj
+         .\LibR\apr_buckets_pipe.obj
+         .\LibR\apr_buckets_pool.obj
+         .\LibR\apr_buckets_refcount.obj
+         .\LibR\apr_buckets_simple.obj
+         .\LibR\apr_buckets_socket.obj
+         .\LibR\apr_md4.obj
+         .\LibR\apr_md5.obj
+         .\LibR\apr_sha1.obj
+         .\LibR\getuuid.obj
+         .\LibR\uuid.obj
+         .\LibR\apr_dbd.obj
+         .\LibR\apr_dbd_pgsql.obj
+         .\LibR\apr_dbd_sqlite2.obj
+         .\LibR\apr_dbd_sqlite3.obj
+         .\LibR\apr_dbm.obj
+         .\LibR\apr_dbm_berkeleydb.obj
+         .\LibR\apr_dbm_gdbm.obj
+         .\LibR\apr_dbm_sdbm.obj
+         .\LibR\apr_base64.obj
+         .\LibR\apr_hooks.obj
+         .\LibR\apr_ldap_init.obj
+         .\LibR\apr_ldap_url.obj
+         .\LibR\apr_ldap_option.obj
+         .\LibR\apr_date.obj
+         .\LibR\apr_queue.obj
+         .\LibR\apr_reslist.obj
+         .\LibR\apr_rmm.obj
+         .\LibR\apu_version.obj
+         .\LibR\sdbm.obj
+         .\LibR\sdbm_hash.obj
+         .\LibR\sdbm_lock.obj
+         .\LibR\sdbm_pair.obj
+         .\LibR\apr_strmatch.obj
+         .\LibR\apr_uri.obj
+         .\LibR\xlate.obj
+         .\LibR\apr_xml.obj
+         aprutil.vcxproj -> D:\material\apr-util\.\LibR\aprutil.lib
+       FinalizeBuildStatus:
+         Deleting file ".\LibR\aprutil.unsuccessfulbuild".
+         Touching ".\LibR\aprutil.lastbuildstate".
+     1>Done Building Project "D:\material\apr-util\aprutil.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.49
